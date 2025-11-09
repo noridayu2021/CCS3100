@@ -10,6 +10,7 @@ public class Q2_Salary {
 		double grossSalary=0.0;
 		
 		//input
+		System.out.println("====Salary Calculator====");
 		System.out.print("Enter basic salary=RM");// Basic salary
 		double basicSalary=input.nextDouble();
 		System.out.print("Enter allowance=RM");//Allowance
@@ -37,6 +38,7 @@ public class Q2_Salary {
 		
 		}
 	}
+
 
 
 
