@@ -28,7 +28,7 @@ public class Q2_Salary {
 		
 		//Proses
 		double grossSalary1=basicSalary+allowance;//Gross salary
-		double netSalary=grossSalary1-(grossSalary1*0.08)-deduction;//Net salary
+		double netSalary=grossSalary1-(grossSalary1*tax)-deduction;//Net salary
 		
 		//Display Net Salary
 		System.out.println("Net Salary=RM " + netSalary );
@@ -37,5 +37,6 @@ public class Q2_Salary {
 		
 		}
 	}
+
 
 
